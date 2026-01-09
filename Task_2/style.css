@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Merriweather', serif;
+    background-color: #eef2f5;
+    color: #333;
+    line-height: 1.7;
+}
+
+.hero-section {
+    background: linear-gradient(135deg, #0f2027 0%, #203a43 50%, #2c5364 100%);
+    /* डार्क रॉयल थीम */
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+#title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.4rem;
+    font-weight: 300;
+    opacity: 0.9;
+}
+
+.years {
+    font-size: 0.9rem;
+    opacity: 0.7;
+    margin-top: 5px;
+}
+
+#img-div {
+    background: white;
+    padding: 15px;
+    margin: -30px auto 30px auto;
+    max-width: 700px;
+    border-radius: 12px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    position: relative;
+    z-index: 10;
+}
+
+#image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    display: block;
+    margin: 0 auto;
+}
+
+#img-caption {
+    margin-top: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-style: italic;
+    color: #555;
+    font-size: 0.95rem;
+}
+
+#tribute-info {
+    max-width: 850px;
+    margin: 0 auto 50px auto;
+    background: white;
+    padding: 50px;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+}
+
+h2 {
+    font-family: 'Poppins', sans-serif;
+    color: #2c5364;
+    margin: 30px 0 20px 0;
+    text-transform: uppercase;
+    font-size: 1.8rem;
+    border-left: 5px solid #2c5364;
+    padding-left: 15px;
+}
+
+p {
+    margin-bottom: 15px;
+    font-size: 1.1rem;
+    color: #050505;
+}
+
+.divider {
+    height: 1px;
+    background: #ddd;
+    margin: 40px 0;
+}
+
+ul {
+    list-style: none;
+    padding-left: 10px;
+}
+
+.timeline li,
+.awards-list li,
+.books-list li {
+    margin-bottom: 15px;
+    padding-left: 20px;
+    position: relative;
+    font-size: 1.05rem;
+}
+
+.timeline li::before {
+    content: "•";
+    color: #2c5364;
+    font-weight: bold;
+    font-size: 1.5rem;
+    position: absolute;
+    left: 0;
+    top: -5px;
+}
+
+.awards-list li,
+.books-list li {
+    background: #f8f9fa;
+    padding: 15px;
+    border-radius: 8px;
+    border-left: 4px solid #203a43;
+    margin-bottom: 10px;
+}
+
+.quote-box {
+    background: #2c5364;
+    color: white;
+    padding: 30px;
+    margin: 50px 0;
+    border-radius: 0 20px 0 20px;
+    font-style: italic;
+    font-size: 1.3rem;
+    text-align: center;
+    box-shadow: 10px 10px 0px rgba(0, 0, 0, 0.1);
+}
+
+.quote-box cite {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: 1rem;
+    color: #ffd700;
+    text-transform: uppercase;
+    font-style: normal;
+}
+
+a {
+    color: #2c5364;
+    font-weight: bold;
+    text-decoration: none;
+    border-bottom: 2px solid #2c5364;
+    transition: 0.3s;
+}
+
+a:hover {
+    color: #d9534f;
+    border-color: #d9534f;
+}
+
+footer {
+    text-align: center;
+    padding: 30px;
+    background: #203a43;
+    color: #bbb;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.9rem;
+}
